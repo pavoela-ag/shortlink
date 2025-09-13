@@ -1,0 +1,11 @@
+name: "Buat Shortlink Baru"
+description: "Isi slug (nama pendek) dan URL tujuan"
+title: "slug-baru"
+body:
+  - type: input
+    id: url
+    attributes:
+      label: "Masukkan URL tujuan"
+      placeholder: "https://google.com"
+    validations:
+      required: true
